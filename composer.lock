@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a17623560120dfb38a544d19b7e42e6c",
+    "packages": [
+        {
+            "name": "vampirus/mxl-reader",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/VampiRUS/mxl-reader.git",
+                "reference": "826954963385955d10c68d7e2e5604240e770325"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/VampiRUS/mxl-reader/zipball/826954963385955d10c68d7e2e5604240e770325",
+                "reference": "826954963385955d10c68d7e2e5604240e770325",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "VampiRUS\\MxlReader\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolay Kravtsov",
+                    "email": "vamp1rus@yandex.ru"
+                }
+            ],
+            "description": "MOXCEL reader for PHP",
+            "support": {
+                "issues": "https://github.com/VampiRUS/mxl-reader/issues",
+                "source": "https://github.com/VampiRUS/mxl-reader/tree/master"
+            },
+            "time": "2018-07-20T05:26:21+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

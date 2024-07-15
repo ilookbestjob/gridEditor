@@ -1,0 +1,69 @@
+$hover:rgb(235, 247, 255);
+
+
+.treecontainer {
+    display              : grid;
+    grid-template-columns: 1fr;
+    grid-template-rows   : 20px 1fr 30px;
+
+    margin  : 0;
+    left    : 0;
+    top     : 0;
+    right   : 0;
+    bottom  : 0;
+    position: relative;
+    height  : 100%;
+   
+    .menu {}
+
+    .content {
+        display   : flex!important;
+        position  : relative;
+        background: #fff;
+        padding   : 7px;
+        margin    : 7px;
+        border    : 1px solid #ccc;
+        overflow-y  : scroll;
+
+        width         : auto;
+        flex-direction: column;
+
+        
+        left    : 0;
+        top     : 0;
+        right   : 0;
+        bottom  : 0;
+       
+      
+
+
+        .treeitem,
+        .treeitemgroup {
+
+
+            display    : block;
+            align-items: center;
+            width      : auto;
+          
+
+            cursor: pointer;
+
+            img {
+                height: 20px;
+                width : auto
+            }
+        }
+
+        .treeitem {
+            display  : block;
+            
+            word-wrap: break-word;
+        }
+
+        .treeitem:hover {
+
+            background: $hover;
+        }
+
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "vampirus/mxl-reader": "^1.0"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "packages": [
+        {
+            "name": "vampirus/mxl-reader",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/VampiRUS/mxl-reader.git",
+                "reference": "826954963385955d10c68d7e2e5604240e770325"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/VampiRUS/mxl-reader/zipball/826954963385955d10c68d7e2e5604240e770325",
+                "reference": "826954963385955d10c68d7e2e5604240e770325",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "time": "2018-07-20T05:26:21+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "VampiRUS\\MxlReader\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolay Kravtsov",
+                    "email": "vamp1rus@yandex.ru"
+                }
+            ],
+            "description": "MOXCEL reader for PHP",
+            "support": {
+                "issues": "https://github.com/VampiRUS/mxl-reader/issues",
+                "source": "https://github.com/VampiRUS/mxl-reader/tree/master"
+            },
+            "install-path": "../vampirus/mxl-reader"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
